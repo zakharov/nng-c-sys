@@ -293,8 +293,7 @@ endif ()
 
 #  Build the tools
 
-# Modified by ngg-c-sys because docs are not needed
-#add_subdirectory(docs/man)
+add_subdirectory(docs/man)
 
 set(CPACK_PACKAGE_NAME ${PROJECT_NAME})
 set(CPACK_PACKAGE_VERSION ${NNG_PACKAGE_VERSION})
